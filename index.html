@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nitinSahu</title>
+    <link rel="stylesheet" href="/myPortfolio/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="left">Nitin Sahu</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <section class="firstSection">
+        <div class="leftSection">Hi, My name is <span style="font-weight: 800;" class="name">Nitin Sahu</span>
+          <div>and I am a passionate</div>
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+        </div>
+        <div class="buttons">
+          <!-- buttons -->
+          <button class="btn1"><span class="btn-text">Download Resume</span></button>
+          <button class="btn2"><span class="btn-text">Visit GitHub</span></button>
+          <!-- buttons -->
+        </div>
+
+        <div class="rightSection">
+          <img src="/myPortfolio/images/bg.png" width="80%" alt="Web-developer">
+        </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-grey">What I have done so far</span>
+      <h1 style="font-weight: bolder;">Work Experience</h1>
+      <div class="horizontal-line"></div>
+    </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
